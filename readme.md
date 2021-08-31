@@ -55,7 +55,7 @@ To git@github.com:woider/baidu.git
 root@localhost:/home/baidu#
 ```
 ### 常用命令
-···
+```
 git remote add origin git@github.com:yeszao/dofiler.git         # 配置远程git版本库
 
 git pull origin master                                          # 下载代码及快速合并
@@ -89,5 +89,5 @@ git config core.ignorecase false                                # 设置大小�
 git config --global user.name "YOUR NAME"                       # 设置用户名
 
 git config --global user.email "YOUR EMAIL ADDRESS"             # 设置邮箱
-···
+```
 
