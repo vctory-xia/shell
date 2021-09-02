@@ -46,8 +46,10 @@ start(){
     echo "当前系统为：${release} ${version}"
     if [[ "$release" == "centos" ]]; then
         yum update
-    elif [["$release" == "ubuntu" ]]; then
+    elif [[ "$release" == "ubuntu" ]]; then
         apt-get update
+        cd /home/zhen/clash && ./clash
     fi
 }
 start
+
